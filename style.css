@@ -1,0 +1,145 @@
+*{
+    border: 0;
+    margin: 0;
+}
+
+body{
+    background-image: url(./assets/10\ project\ bg.jpg);
+    background-size: cover;
+    font-family: 'Poppins', Tahoma, Geneva, Verdana, sans-serif;
+    color: #FFF;
+}
+
+nav{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    padding: 4rem 5rem;
+}
+
+.navContent{
+    display: flex;
+    border-bottom: 2px solid #f1f1f1;
+    padding: 0 2px 30px 2px;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+}
+.nav-link{
+    margin-left: -40px;}
+
+.list{
+   display: flex;
+  
+}
+.list-items{
+    list-style: none;
+    margin-right: 20px;
+}
+
+.list-items a{
+    text-decoration: none;
+    color: #fff;
+}
+
+.contact{
+    display: flex;
+}
+.phone{
+    margin-right:10px ;
+}
+
+
+/* Header Content */
+.header-content{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 10vh;
+}
+
+.left-side h1{
+    color: #fff;
+    font-size: 4em;
+    font-weight: 500;
+}
+
+button {
+    padding: 20px 40px;
+    background-color: transparent;
+    font-size: 24px;
+    font-weight: 600;
+    border: 2px solid #f1f1f1;
+    border-radius: 40px;
+    margin-top: 60px;
+    color: #FFF;
+}
+
+.right-side{
+    display: inline;
+    position: relative;
+
+}
+.puzzleBox {
+    display: inline-block;
+    position: absolute;
+    background-color: #f1f1f122;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    right: 5px;
+}
+
+.puzzleBox > img {
+    background-color: #f1f1f1;
+    padding: 5px 40px;
+    border-radius: 40px;
+}
+.puzzleLine {
+    position: absolute;
+    height: 80px;
+    width: 2px;
+    background-color: #f1f1f144;
+    bottom: -80px;
+    right: 90px;
+}
+.puzzleDot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    bottom: -100px;
+    right: 81px;
+}
+
+.bulbBox {
+    display: inline-block;
+    position: absolute;
+    background-color: #f1f1f122;
+    padding: 30px;
+    font-size: 14px;
+    font-weight: 500;
+    right: 300px;
+    top: 300px;
+}
+.bulbBox > img {
+    background-color: #f1f1f1;
+    padding: 2px 40px;
+    border-radius: 40px;
+}
+.bulbLine {
+    position: absolute;
+    height: 2px;
+    width: 80px;
+    background-color: #f1f1f144;
+    bottom: 120px;
+    right: -80px;
+}
+.bulbDot {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    background-color: #f1f1f1;
+    border-radius: 100%;
+    bottom: 110px;
+    right: -100px;
+}
